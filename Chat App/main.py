@@ -2,10 +2,10 @@ from groq import Groq
 import os
 from dotenv import load_dotenv
 import streamlit as st
-import ghana_nlp
+import ghana_nlp 
 
 #streamlit components
-st.title("SIS KHADY AI")
+st.title("AI Tool for Learners")
 st.subheader("This is a demo for interacting with the GROQ API with steamlit.")
 prompt = st.chat_input("Ask me anything..")
 
